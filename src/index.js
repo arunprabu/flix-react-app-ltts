@@ -1,5 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';   // core react package -- needed for components
+import ReactDOM from 'react-dom'; // for rendering the comp in the UI
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
