@@ -7,6 +7,7 @@ import ChannelList from './containers/ChannelList';
 import TrendingShows from './containers/TrendingShows';
 import MyProfile from './containers/MyProfile';
 import Subscription from './components/Subscription';
+import LifeCycleDemo from './containers/LifeCycleDemo';
 
 // ideal comp for your layout
 // fn defn
@@ -80,7 +81,11 @@ function App() {
           <Subscription />
         </div>
         
-        
+        <hr/>
+        <div className='container'>
+          <h2>Lifecycle Hooks Demo</h2>
+          <LifeCycleDemo title="Class comp and Lifecycle"/>
+        </div>
 
       </div>
       <Footer></Footer>

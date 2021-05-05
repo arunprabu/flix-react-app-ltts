@@ -16,7 +16,7 @@ const Subscription = () => {
       fontSize: '20px'
     }
   }
-
+  
   return (
     <div>
       <h4 className="info">You are an Active Subscriber</h4>

@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class MyProfile extends Component {
-
+  
   state = {
     profileName: 'Arun',
     accountCreated: '4/5/2021'
