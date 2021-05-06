@@ -107,7 +107,7 @@ function App() {
           <h2>Last Login | HOC Demo</h2>
           <WithLastLogin>
             <p>Last Login: 3/May/2021</p>
-            <p>Updated at: 2 PM Today</p>
+            <p>Updated at: 2 PM Today!</p>
           </WithLastLogin>
         </div>
 
