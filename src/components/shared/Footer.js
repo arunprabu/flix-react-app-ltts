@@ -8,11 +8,13 @@ const Footer = function(){
   let copyrightYear = 2021;
 
   return(
-    <footer>
-      <hr></hr>
-      <Menu />
+    <>
+      <footer>
+        <hr></hr>
+        <Menu />
+      </footer>
       <p className="greyText">Copyright - Arun | {copyrightYear}</p>
-    </footer>
+    </>
   )
 }
 

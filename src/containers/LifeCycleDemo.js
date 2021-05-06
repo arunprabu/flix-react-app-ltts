@@ -17,6 +17,7 @@ class LifeCycleDemo extends Component {
     // you can't access any other methods
     // the only way to update state is by returning an object 
     console.log('----------------2. Inside getDerivedStateFromProps---------------');
+    console.log(props);
     console.log(state);
    
     return state;

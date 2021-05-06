@@ -8,6 +8,9 @@ import TrendingShows from './containers/TrendingShows';
 import MyProfile from './containers/MyProfile';
 import Subscription from './components/Subscription';
 import LifeCycleDemo from './containers/LifeCycleDemo';
+import ContactForm from './containers/ContactForm';
+import SubscriberList from './containers/SubscriberList';
+import WithLastLogin from './hoc/WithLastLogin';
 
 // ideal comp for your layout
 // fn defn
@@ -85,6 +88,27 @@ function App() {
         <div className='container'>
           <h2>Lifecycle Hooks Demo</h2>
           <LifeCycleDemo title="Class comp and Lifecycle"/>
+        </div>
+
+        <hr/>
+        <div className='container'>
+          <h2>Contact Us | React Forms and Ref's Demo</h2>
+          <ContactForm />
+        </div>
+
+        <hr/>
+        <div className='container'>
+          <h2>SubscriberList | Parent to Child Comp Communication Demo</h2>
+          <SubscriberList />
+        </div>
+
+        <hr/>
+        <div className='container'>
+          <h2>Last Login | HOC Demo</h2>
+          <WithLastLogin>
+            <p>Last Login: 3/May/2021</p>
+            <p>Updated at: 2 PM Today</p>
+          </WithLastLogin>
         </div>
 
       </div>
