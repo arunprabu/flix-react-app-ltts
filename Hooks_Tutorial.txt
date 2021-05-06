@@ -1,7 +1,7 @@
 A new concept was introduced in React 16.8 - Hooks. 
 They let you use state and other React features without writing a class.
 Many of the features available to classes - such as lifecycle methods and states - 
-are not available to functional components. 
+were not available to functional components. 
 The hooks introduced in react adds all that functionality and more.
 
 Life Cycle Hooks and React Hooks are not same. 
